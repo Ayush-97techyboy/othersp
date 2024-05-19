@@ -1,0 +1,47 @@
+:root {
+  --css-primary: #34c94b;
+  --css-black : #121212;
+  --css-white : #fff;
+}
+
+/* Reset some default browser styles */
+html, body, h1, h2, h3, p, ul, ol, li, dl, dt, dd, blockquote, figure, fieldset, legend {
+  margin: 0;
+  padding: 0;
+  background: var(--css-black);
+  color: var(--css-white);
+  font-family: Poppins;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Set the base font size and line height */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Ensure images are not scaled beyond their natural size */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove underline from links and make them blue by default */
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+/* Apply a basic box-sizing to all elements for consistent sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+/* .css-bnc8dt {
+  display: none;
+} */

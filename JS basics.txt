@@ -1,0 +1,38 @@
+NA(Not Allowed)
+
+
+1)
+function fun() {
+  console.log(a); // 1 undefined 
+  var a = 10;     // 2
+  console.log(a); // 3 10
+}
+
+var a = 40;   Out of block scope
+
+
+function fun() {
+	console.log(a); // 1 undefined
+	const a = 20;   // 2
+	console.log(a); // 3 20
+	const a = 20;  // 4   re-decl. NA 
+	a = 30;         // 4  re-assi. NA
+	console.log(a); // 5 20  last assigned val
+}
+
+function fun() {
+  console.log(a); // 1 undefined 
+  var a = 10;     // 2
+  console.log(a); // 3 10
+}
+
+function fun() {
+	console.log(a); // 1 und
+	let a = 10;     // 2 
+	console.log(a); // 3 10
+	let a = 20;    // 4 re-decl. NA
+	a = 40;         // 4 re-assign A
+	console.log(a); // 5 40 
+}
+
+
